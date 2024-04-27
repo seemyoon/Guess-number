@@ -39,7 +39,7 @@ const contItem2LastChild = contItem2.lastChild;
 const attemptTypeStringNumber = contItem2LastChild.innerHTML;
 let attemptNumber = parseInt(attemptTypeStringNumber);
 
-// let firstAttempt = attemptNumber;
-// while(check() === false && attemptNumber > 0){
-// attemptNumber--;
-// }
+let firstAttempt = attemptNumber;
+while(check() === false && attemptNumber > 0){
+attemptNumber--;
+}
